@@ -15,7 +15,7 @@ class CreateAlunoConta extends Migration
     {
         Schema::create('aluno_conta', function (Blueprint $table) {
             $table->id("aluno_id");
-            $table->string("passw")
+            $table->string("passw");
         });
     }
 
